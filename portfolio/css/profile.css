@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #BDC1B8;
+    height: auto;
+    display: block;
+    margin: auto;
+    max-width: 1440px;
+  }
+  
+/*----------------Nav----------------*/
+  
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 215px;
+  background-color: transparent;
+  border-right: transparent;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: #6C868A;
+  padding: 14px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.sidebar a:hover:not(.active) {
+  font-weight: bold;
+}
+
+.button {
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  border-radius: 30px;
+  width: 135px;
+  height: 39px;
+  background-color: #ffffff;
+  margin-left: 2.5rem;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+background-color: rgb(220,85,120,0.3); 
+color: black;
+}
+
+.icons {
+  margin-left: 1rem;
+}
+
+.down {
+  margin-top: 15rem;
+}
+
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: fixed;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+
+/*----------------Nav End----------------*/
+
+.topimg {
+  display: block;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+.title {
+  margin: auto;
+  vertical-align: middle;
+}
+p1 {
+  text-align: center;
+}
+
+.logo {
+display: flex;
+justify-content: center;
+padding-top: 500px;
+padding-left: 50%;
+flex-direction: column;
+width: 334px;
+align-items: center;
+}
+
+.top-content {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: top;
+  background-image: url('../../portfolio/bgtop.jpg');
+  height: 1024px;
+}
+
+.work {
+  display: flex;
+  justify-content: center;
+  padding-top: 90px;
+  padding-bottom: 90px;
+
+}
+
+.work-container {
+  display: flex;
+  flex-direction: row;
+  padding-left: 80px;
+  width: 1440px;
+
+}
+
+p1 {
+  padding-left: 150px;
+  padding-top: 115px;
+}
+
+.work-container2 {
+  display: flex;
+  flex-direction: row;
+  padding-right: 80px;
+  padding-top: 90px;
+  float: right;
+  width: 1440px;
+
+}
+
+p2 {
+  padding: 150px;
+  padding-top: 115px;
+}
+
+.work-container3 {
+  display: flex;
+  flex-direction: row;
+  padding-top: 90px;
+  padding-left: 80px;
+  float: left;
+  width: 1440px;
+}
+
+p2 {
+  padding: 150px;
+  padding-top: 115px;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  width: 1440px;
+
+}
+
+.skills-container {
+  display: flex;
+  justify-content: center;
+  width: 1440px;
